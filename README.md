@@ -9,6 +9,9 @@ write text:
 > helo this is tesst.
 
 > *helo* this is *tesst*.
-> Improvement suggestions:
+
+Improvement suggestions:
+
 > helo: helot, hello, helio
+
 > tesst: test, tersest, tensest
