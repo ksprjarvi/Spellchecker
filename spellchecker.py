@@ -22,7 +22,7 @@ def spellchecker():
     print(' '.join(word))
 
     # Prints modification suggestions using for loop and compares words using difflib.
-    print('korjausehdotukset:')
+    print('Improvement suggestions:')
     for w in wrong_words:
         print(f'{w}: ', end='')
         correct_words = difflib.get_close_matches(w, wordlist)
